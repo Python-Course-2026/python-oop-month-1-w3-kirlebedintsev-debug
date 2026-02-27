@@ -8,5 +8,4 @@ class SmartPoint:
         return f"Точка({self.x}, {self.y})"
 
     def __repr__(self):
-        # Возвращает строку для разработчика: "SmartPoint(x=5, y=-5)"
         return f"SmartPoint(x={self.x}, y={self.y})"
